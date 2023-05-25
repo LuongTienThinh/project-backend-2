@@ -1,0 +1,14 @@
+
+---------------------------- Migrate table database ----------------------------
+
+php artisan migrate
+
+
+---------------------------- Insert default value for table database ----------------------------
+
+php artisan authentication:install
+php artisan db:seed ActionSeeder
+php artisan db:seed GamesSeeder
+php artisan db:seed IrregularsSeeder
+php artisan db:seed TopicSeeder
+php artisan db:seed VocabularySeeder
