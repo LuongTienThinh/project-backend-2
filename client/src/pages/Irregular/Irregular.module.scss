@@ -1,0 +1,54 @@
+.irregular-verb {
+    padding: 80px 0;
+    margin: 0 auto;
+}
+
+.list-verb {
+    width: 100%;
+}
+
+.list-verb table {
+    width: 100%;
+    font-size: 1.6rem;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.list-verb table th,
+.list-verb table td {
+    border: 1px solid #555;
+    padding: 8px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.number-ordered {
+    width: 70px;
+}
+
+.meaning {
+    width: 40%;
+}
+
+.pagination {
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+
+.page-item {
+    margin: 0 5px 5px 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid var(--gray-color);
+}
+
+.page-item.active {
+    background-color: var(--filter-color);
+    color: var(--white-color);
+    border-color: var(--filter-color);
+}

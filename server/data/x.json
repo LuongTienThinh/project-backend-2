@@ -1,0 +1,2530 @@
+[
+    [
+        {
+            "word": "abbe",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/EN-Abbe.ogg/EN-Abbe.ogg.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "abbes", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Alternative spelling of abbé",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "abby",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "abbies", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Obsolete spelling of abbey",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "aberdeen",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/LL-Q1860_%28eng%29-Vealhurl-Aberdeen.wav/LL-Q1860_%28eng%29-Vealhurl-Aberdeen.wav.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "Aberdeens", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A wide evenly curved fishhook.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Alternative form of Aberdeen terrier",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "abraham",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/En-us-Abraham.ogg/En-us-Abraham.ogg.mp3",
+                    "ipa": "/ˈeɪ.bɹəˌhæm/"
+                }
+            ],
+            "forms": [{ "text": "Abrahams", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A shop selling cheap and low-quality clothes, especially in the East End of London.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [{ "text": "slopshop", "meaning": "" }]
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "abilene",
+            "partOfSpeech": "adj",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Belonging to a prehistoric culture of central Texas, characterized by oval grinding stones.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "accra",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "accras", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A spicy fritter, originally from Ghana but now typically from Haiti.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [{ "text": "akra", "meaning": "" }]
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "abe",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "uk",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/44/En-au-Abe.ogg/En-au-Abe.ogg.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "Abes", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A five-dollar bill.",
+                    "examples": [
+                        "\"Gambling's not my form of masochism,\" said Carl. \"Huh?\" \"So how much?\" \"The wad's mostly ones. Some Jeffersons. Two or three Abes.\""
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "abe",
+            "partOfSpeech": "verb",
+            "phonetics": [
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/LL-Q1860_%28eng%29-Vealhurl-abe.wav/LL-Q1860_%28eng%29-Vealhurl-abe.wav.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "To be.",
+                    "examples": [
+                        "Let it abe, I say.",
+                        "But if it amuses her I let it abe.",
+                        "But let that abe."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "acer",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "acers", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A plant of the genus Acer; a maple.",
+                    "examples": [
+                        "In the plantations to which we allude, there were also some American acers and the Norway maple, exhibiting dark reds and rich yellows."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "acer",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "acers", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Obsolete spelling of acre",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "aaron",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/En-Aaron.ogg/En-Aaron.ogg.mp3",
+                    "ipa": "/ˈɛɹ.ən/"
+                },
+                {
+                    "type": "uk",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cb/LL-Q1860_%28eng%29-Vealhurl-Aaron.wav/LL-Q1860_%28eng%29-Vealhurl-Aaron.wav.mp3",
+                    "ipa": "/ˈæɹ.ən/"
+                }
+            ],
+            "forms": [{ "text": "Aarons", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "The leader of a group of thieves.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [{ "text": "criminal leader", "meaning": "" }]
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "admiralty",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/af/En-us-admiralty.ogg/En-us-admiralty.ogg.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "admiralties", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "The office or jurisdiction of an admiral.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "The department or officers having authority over naval affairs generally.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "The court which has jurisdiction of maritime questions and offenses.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "The system of jurisprudence of admiralty courts.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "The building in which the lords of the admiralty, in England, transact business.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "acton",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "actons", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Alternative form of aketon",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "acton",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Obsolete form of actinon.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "adrenalin",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/LL-Q1860_%28eng%29-Vininn126-adrenalin.wav/LL-Q1860_%28eng%29-Vininn126-adrenalin.wav.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "adrenalins", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Alternative spelling of adrenaline",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "abigail",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "uk",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/LL-Q1860_%28eng%29-Vealhurl-abigail.wav/LL-Q1860_%28eng%29-Vealhurl-abigail.wav.mp3",
+                    "ipa": "/ˈa.bɪ.ɡeɪl/"
+                },
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/En-ca-abigail.ogg/En-ca-abigail.ogg.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "abigails", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A lady's maid.",
+                    "examples": [
+                        "It was therefore concluded that the Abigails should, by turns, relieve each other on one of his lordship’s horses, which was presently equipped with a side-saddle for that purpose.",
+                        "In the servants’ hall two coachmen and three gentlemen’s gentlemen stood or sat round the fire; the abigails, I suppose, were upstairs with their mistresses; the new servants, that had been hired from Millcote, were bustling about everywhere."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "adirondacks",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of Adirondack",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "adventist",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "Adventists", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "One who believes in the Second Advent (usually known as the Second Coming) of Jesus; an advocate of Adventism.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "A member of the Seventh-day Adventist Church.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "adventist",
+            "partOfSpeech": "adj",
+            "phonetics": [],
+            "forms": [
+                { "text": "more Adventist", "type": "comparative" },
+                { "text": "most Adventist", "type": "superlative" }
+            ],
+            "meanings": [
+                {
+                    "definition": "Relating to believers in the Second Advent of Jesus; relating to Adventism.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Relating to Seventh-day Adventism / the Seventh-day Adventist Church.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "abidjan",
+            "partOfSpeech": "adj",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Of or relating to Abidjan.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [
+                        {
+                            "text": "Abidjanian",
+                            "meaning": "of or relating to Abidjan"
+                        }
+                    ]
+                },
+                {
+                    "definition": "Of the style prevalent in Abidjan.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "aborigines",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of Aborigine",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "aborigines",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of aborigine",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "aborigines",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "The original people of a location, originally Greek and Roman.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Indigenous flora and fauna.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "The inhabitants of a location before colonization by the Europeans occurred.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "abyssinia",
+            "partOfSpeech": "adj",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Ethiopian; Eritrean; Abyssinian.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "abyssinia",
+            "partOfSpeech": "intj",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Expression of farewell: I’ll be seeing ya.",
+                    "examples": [
+                        "From the way that Abyssinia sounds vaguely like I'll be seeing you."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "adar",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "ADARs", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "The enzyme adenosine deaminase that affects RNA, important in editing nuclear double stranded RNAs (from A to I) in higher eukaryotes, that work by acting to convert adenosines to insosines via hydrolytic deamination.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [{ "text": "ADA", "meaning": "" }]
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "adele",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "adeles", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A member of a self-dual topological ring built on the field of rational numbers (or, more generally, any algebraic number field), and involving in a symmetric way all the completions of the field.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "adonis",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "uk",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/LL-Q1860_%28eng%29-Vealhurl-Adonis.wav/LL-Q1860_%28eng%29-Vealhurl-Adonis.wav.mp3",
+                    "ipa": "/əˈdoʊ.nɪs/"
+                }
+            ],
+            "forms": [
+                { "text": "Adonises", "type": "plural" },
+                { "text": "Adonides", "type": "plural" }
+            ],
+            "meanings": [
+                {
+                    "definition": "A beautiful man.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "advents",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of advent",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "achaean",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "Achaeans", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "An inhabitant or a resident of Achaea.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "achaean",
+            "partOfSpeech": "adj",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Of or relating to Achaea.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "aborigine",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "Aborigines", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "An Aboriginal person from Australia (descending from, or a member of, one of the indigenous people(s) before British colonization), Aboriginal Australian.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [
+                        { "text": "Aboriginal", "meaning": "" },
+                        { "text": "Aboriginal people", "meaning": "" },
+                        { "text": "Aboriginal Australian", "meaning": "" }
+                    ]
+                }
+            ]
+        },
+        {
+            "word": "aborigine",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/30/En-us-aborigine.ogg/En-us-aborigine.ogg.mp3",
+                    "ipa": "/ˌæb.əˈɹɪd͡ʒ.ɪ.ni/"
+                }
+            ],
+            "forms": [{ "text": "aborigines", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A native inhabitant of a country; a member of the original people.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "The native flora and fauna of an area.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "acts",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of Act.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "acts",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/En-us-acts.ogg/En-us-acts.ogg.mp3",
+                    "ipa": "/æks/"
+                }
+            ],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of act",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "acts",
+            "partOfSpeech": "verb",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/En-us-acts.ogg/En-us-acts.ogg.mp3",
+                    "ipa": "/æks/"
+                }
+            ],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "third-person singular simple present indicative form of act",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "acts",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of ACT",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "adidas",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [
+                { "text": "Adidas", "type": "plural" },
+                { "text": "Adidases", "type": "plural" }
+            ],
+            "meanings": [
+                {
+                    "definition": "A clothing product of this brand, especially a pair of shoes.",
+                    "examples": [
+                        "I walked through the door and Jeremy had hung himself from the rafters. A stepladder was kicked over and his Adidas dangled right above my eye level.",
+                        "nobody expects you to wear a headscarf or a Tuareg blue Turban in town – and these days, even Tuaregs wear Adidas."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "adidas",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "chicken feet, skewered and grilled, sold as street food",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "adrian",
+            "partOfSpeech": "adj",
+            "phonetics": [
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/LL-Q1860_%28eng%29-Vealhurl-Adrian.wav/LL-Q1860_%28eng%29-Vealhurl-Adrian.wav.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [
+                { "text": "more Adrian", "type": "comparative" },
+                { "text": "most Adrian", "type": "superlative" }
+            ],
+            "meanings": [
+                {
+                    "definition": "Relating to the Adriatic Sea.",
+                    "examples": ["Adrian billows"],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "afrikaans",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/LL-Q1860_%28eng%29-Vealhurl-Afrikaans.wav/LL-Q1860_%28eng%29-Vealhurl-Afrikaans.wav.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "Afrikaans", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A person from South Africa or Namibia who speaks Afrikaans. (More properly called \"Afrikaans people\" or Afrikaners.)",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [{ "text": "Afrikaner", "meaning": "" }]
+                }
+            ]
+        },
+        {
+            "word": "afrikaans",
+            "partOfSpeech": "adj",
+            "phonetics": [
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/LL-Q1860_%28eng%29-Vealhurl-Afrikaans.wav/LL-Q1860_%28eng%29-Vealhurl-Afrikaans.wav.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Of or pertaining to the Afrikaans language.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "adirondack",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "Adirondacks", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A member of an Algonquin people that lived along the Ottawa River in Ontario and Quebec.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "adirondack",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "Adirondacks", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Abbreviation of Adirondack lean-to.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "afrikaners",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of Afrikaner",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "abram",
+            "partOfSpeech": "adj",
+            "phonetics": [],
+            "forms": [
+                { "text": "more abram", "type": "comparative" },
+                { "text": "most abram", "type": "superlative" }
+            ],
+            "meanings": [
+                {
+                    "definition": "auburn",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "abram",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "Abrams", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Synonym of Abraham man",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [{ "text": "Abraham man", "meaning": "" }]
+                }
+            ]
+        },
+        {
+            "word": "abram",
+            "partOfSpeech": "adj",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "insane; mad",
+                    "examples": ["He maunds Abram, he begs as a madde man."],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "naked.",
+                    "examples": ["She's all Abram"],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "ado",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4f/LL-Q1860_%28eng%29-Vealhurl-ado.wav/LL-Q1860_%28eng%29-Vealhurl-ado.wav.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "trouble; troublesome business; fuss, commotion",
+                    "examples": [
+                        "Antonio:In sooth, I know not why I am so sad.\nIt wearies me; you say it wearies you;\nBut how I caught it, found it, or came by it,\nWhat stuff 'tis made of, whereof it is born,\nI am to learn;\nAnd such a wantwit sadness makes of me,\nThat I have much ado to know myself.",
+                        "Probably a crab would be filled with a sense of personal outrage if it could hear us class it without ado or apology as a crustacean, and thus dispose of it. “I am no such thing,” it would say; “I am myself, myself alone.”"
+                    ],
+                    "antonyms": null,
+                    "synonyms": [{ "text": "commotion", "meaning": "" }]
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "africanizing",
+            "partOfSpeech": "verb",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "present participle of Africanize",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "adrenalins",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of adrenalin",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "africa",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Africa",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [
+                        { "text": "Africa", "meaning": "" },
+                        { "text": "Dark Continent", "meaning": "" },
+                        { "text": "endemic person", "meaning": "" }
+                    ]
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "africans",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of African",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "africanize",
+            "partOfSpeech": "verb",
+            "phonetics": [],
+            "forms": [
+                {
+                    "text": "Africanizes",
+                    "type": "present singular third-person"
+                },
+                { "text": "Africanizing", "type": "participle present" },
+                { "text": "Africanized", "type": "participle past" },
+                { "text": "Africanized", "type": "past" }
+            ],
+            "meanings": [
+                {
+                    "definition": "To make African.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [{ "text": "Africanise", "meaning": "" }]
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "africanized",
+            "partOfSpeech": "verb",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "simple past tense and past participle of Africanize",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "afrikaner",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "Afrikaners", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A member of an ethnic group of northwestern European ancestry and associated with southern Africa and the Afrikaans language.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "A breed of cattle; Afrikander.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "admiralties",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of admiralty",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "adventists",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of Adventist",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "adriatic",
+            "partOfSpeech": "adj",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/En-us-Adriatic.ogg/En-us-Adriatic.ogg.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Of or pertaining to the Adriatic Sea",
+                    "examples": [
+                        "She moves me not, or not removes, at least,\nAffection's edge in me, were she as rough\nAs are the swelling Adriatic seas:"
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "afros",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of afro",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "afros",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of Afro",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "afghans",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of Afghan",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "afghans",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "plural of afghan",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "aegean",
+            "partOfSpeech": "adj",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Of or relating to the Aegean Sea or the regions bordering it.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Of or relating to the Bronze Age civilization in that region.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "abba",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "uk",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4a/LL-Q1860_%28eng%29-Vealhurl-abba.wav/LL-Q1860_%28eng%29-Vealhurl-abba.wav.mp3",
+                    "ipa": "/ˈæb.ə/"
+                },
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/En-ca-abba.ogg/En-ca-abba.ogg.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "abbas", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Father; religious superior; in the Syriac, Coptic, and Ethiopic churches, a title given to the bishops, and by the bishops to the patriarch; a title given to Jewish scholars in the Talmudic period.",
+                    "examples": [
+                        "The abba of the coenobion went to him and told him about the brother who had slipped up."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "abba",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "abbas", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Alternative form of aba (Middle Eastern garment).",
+                    "examples": [
+                        "The rich turbans and flowing robes of the respectable merchants are finely contrasted with the rude sheepskin covering of the mountaineer, and the dark abba of the wandering Arab.",
+                        "Around their waist, instead of a shawl, they wear a girdle fastened with monstrous silver clasps which may be ornamented, according to the owner's taste, with jewels and in which they stick not only their Koordish dagger, but a pair of great brass or silver-knobbed pistols; from this, too, hang sundry powder-horns and shot-cases, cartridge-boxes, &c. ; and over all they cast a sort of cloak, or abba, of camel's hair, white or black, or striped white brown and black, clasped on the breast, and floating picturesquely behind.",
+                        "Conceiving that he had some solid reason for his refusal, which he could not with propriety disclose in presence of Omar Effendi, I did not urge him to accompany me; but laying aside my white burnous, which I had hitherto worn after the fashion of Cairo, put on a black abba of the Capo Verde which was brought me by as black a Hercules, of whom the interpreter remarked that there was only one person in Jerusalem, and that too a fellow-servant, who was piu diavolo che lui, more devil than he."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "abba",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "Abbas", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Father, an honorific title given to God in the New Testament, especially used in prayers.",
+                    "examples": [
+                        "And because yee are sonnes, God hath sent foorth the spirit of his Sonne into your hearts, crying Abba, Father."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "abbot",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/En-us-abbot.ogg/En-us-abbot.ogg.mp3",
+                    "ipa": "/ˈæb.ət/"
+                },
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/En-ca-abbot.ogg/En-ca-abbot.ogg.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "abbots", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "The superior or head of an abbey or monastery.",
+                    "examples": [
+                        "The newly appointed abbot decided to take a tour of the abbey with the cardinal's emissary."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "The pastor or administrator of an order, including minor and major orders starting with the minor order of porter.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "A layman who received the abbey's revenues, after the closing of the monasteries.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "A brothel-owner's husband or lover.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "A ponce; a man employed by a prostitute to find clients, and who may also act as a bodyguard or equivalent to a bouncer.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "abyssinian",
+            "partOfSpeech": "adj",
+            "phonetics": [
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/LL-Q1860_%28eng%29-Vealhurl-Abyssinian.wav/LL-Q1860_%28eng%29-Vealhurl-Abyssinian.wav.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Of or pertaining to Ethiopia or its inhabitants; Ethiopian.",
+                    "examples": [
+                        "Our men are frightened of these Abyssinian women."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "abyssinian",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/LL-Q1860_%28eng%29-Vealhurl-Abyssinian.wav/LL-Q1860_%28eng%29-Vealhurl-Abyssinian.wav.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "Abyssinians", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A short-haired domestic cat descended from cats of ancient Egypt making it one of the oldest breeds in the world; Abyssinian cat.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "A member of the Abyssinian Church.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [
+                        { "text": "Abyssian", "meaning": "" },
+                        { "text": "Abyssin", "meaning": "" },
+                        { "text": "Abyssine", "meaning": "" },
+                        { "text": "Abissinian", "meaning": "" }
+                    ]
+                },
+                {
+                    "definition": "A native of Ethiopia.",
+                    "examples": [
+                        "A group of Abyssinians are astride horses in brightly colored saddles at the top of the hill across the valley."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "advent",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/En-advent.ogg/En-advent.ogg.mp3",
+                    "ipa": ""
+                },
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fe/En-us-advent.ogg/En-us-advent.ogg.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "advents", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "arrival; onset; a time when something first comes or appears",
+                    "examples": [
+                        "Death's dreadful advent",
+                        "At the period just preceding the advent of Bartleby, I had two persons as copyists in my employment, and a promising lad as an office-boy.",
+                        "The car in which I had taken Olivia to dinner and then out to the cemetery — a historic vehicle, even a monument of sorts, in the history of fellatio's advent onto the Winesburg campus in the second half of the twentieth century — went careening off to the side...",
+                        "Berlin's six-decade career began before the advent of radio and ended during the height of Beatlemania."
+                    ],
+                    "antonyms": null,
+                    "synonyms": [
+                        { "text": "arrival", "meaning": "coming" },
+                        { "text": "approach", "meaning": "coming" },
+                        { "text": "oncome", "meaning": "coming" },
+                        { "text": "onset", "meaning": "coming" }
+                    ]
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "ad",
+            "partOfSpeech": "adv",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/En-us-AD.ogg/En-us-AD.ogg.mp3",
+                    "ipa": "/ˌeɪˈdi/"
+                }
+            ],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Initialism of anno Domini (borrowed from Latin); in the year of our Lord.",
+                    "examples": [
+                        "They had a vibrant culture from the 3rd century BC to the 2nd century AD.",
+                        "Today is 1 April AD 2023.",
+                        "Founded Aᴼ.Dᴵ. 1728 by Benj. Franklin",
+                        "But keep on the lookout for the 1st-century-a.d. stele on the right wall, with symbols of the deceased’s civic scribely duties (a scroll and codex), and the fresco remnants around to the left."
+                    ],
+                    "antonyms": null,
+                    "synonyms": [
+                        { "text": "AC", "meaning": "anno Domini" },
+                        { "text": "A.C.", "meaning": "anno Domini" },
+                        { "text": "anno Domini", "meaning": "anno Domini" },
+                        { "text": "Anno Domini", "meaning": "anno Domini" },
+                        { "text": "CE", "meaning": "anno Domini" },
+                        { "text": "Christian Era", "meaning": "anno Domini" },
+                        {
+                            "text": "in the year of our Lord",
+                            "meaning": "anno Domini"
+                        },
+                        { "text": "A. D.", "meaning": "anno Domini" }
+                    ]
+                }
+            ]
+        },
+        {
+            "word": "ad",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/En-us-AD.ogg/En-us-AD.ogg.mp3",
+                    "ipa": "/ˌeɪˈdi/"
+                }
+            ],
+            "forms": [{ "text": "ADs", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Initialism of assistant director.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of air defence or air defense.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of antidepressant.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of auxiliary destroyer (a naval tender, a destroyer tender that tends to destroyers).",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of Alzheimer's disease.",
+                    "examples": [
+                        "2015 — Larochelle, Stéphane (December 2015). \"STOMPing at the bits\". Nature Methods 12 (12): 1114. doi:10.1038/nmeth.3679. Retrieved 19 February 2016.\nMany neurodegenerative diseases, including Alzheimer's disease (AD), involve pathological protein deposits."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of airworthiness directive.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of anti-dumping.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Abbreviation of audio description.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ad",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b5/En-us-ad.ogg/En-us-ad.ogg.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "ads", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Abbreviation of advertisement.",
+                    "examples": [
+                        "I have placed both of the ads in the newspaper as instructed."
+                    ],
+                    "antonyms": null,
+                    "synonyms": [{ "text": "advert", "meaning": "" }]
+                },
+                {
+                    "definition": "Abbreviation of advertising.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Abbreviation of advertiser.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ad",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b5/En-us-ad.ogg/En-us-ad.ogg.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "ads", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "advantage",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "advantage",
+                    "examples": ["ads and disads"],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ad",
+            "partOfSpeech": "prep",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b5/En-us-ad.ogg/En-us-ad.ogg.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "to, toward",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ad",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "Ads", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Abbreviation of adenovirus.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "abbey",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/07/En-us-abbey.ogg/En-us-abbey.ogg.mp3",
+                    "ipa": ""
+                },
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/En-ca-abbey.ogg/En-ca-abbey.ogg.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "abbeys", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "The office or dominion of an abbot or abbess.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "A monastery or society of people, secluded from the world and devoted to religion and celibacy, which is headed by an abbot or abbess; also, the monastic building or buildings.",
+                    "examples": [
+                        "From 1199 to 1203 William Punchard was the abbot of the abbey of Rievaulx, which was part of the Cistercian order of monks."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "The church of a monastery.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "A residence that was previously an abbatial building.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "ac",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "ACs", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Initialism of absolute ceiling.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of access control.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of account current.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of anterior chamber.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of adult contemporary (a radio format).",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of adenylyl cyclase.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of adjuvant chemotherapy.",
+                    "examples": [
+                        "Current UK practice, supported by NICE guidance is to complete local pelvic treatment with surgery±pre-operative radiotherapy, before considering systemic adjuvant chemotherapy (AC)"
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of air conditioning.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [
+                        { "text": "a.c.", "meaning": "air conditioning" }
+                    ]
+                },
+                {
+                    "definition": "Initialism of air corps.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of aircraftman.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of alternating current (often used to indicate an alternating potential rather than a current).",
+                    "examples": ["Coordinate term: DC", "110 V AC"],
+                    "antonyms": null,
+                    "synonyms": [
+                        { "text": "A.C.", "meaning": "alternating current" }
+                    ]
+                },
+                {
+                    "definition": "Initialism of area code.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of army corps.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [
+                        {
+                            "text": "A.C.",
+                            "meaning": "army corps, athletic club"
+                        }
+                    ]
+                },
+                {
+                    "definition": "Initialism of athletic club.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of author's correction.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of automobile club.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of Auxiliary Collier (a naval coal transport that travels with the fleet to provide coal for coal-powered warships).",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of axiom of choice.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Companion of the Order of Australia.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of aviation cadet.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of ammonium chloride.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of autonomous county.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of armor class.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ac",
+            "partOfSpeech": "adj",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Initialism of acromioclavicular.",
+                    "examples": ["AC joint; AC separation"],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of air conditioned.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of antichristian.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ac",
+            "partOfSpeech": "adv",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Initialism of anno Christi (in the year of Christ).",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [{ "text": "AD", "meaning": "anno Christi" }]
+                },
+                {
+                    "definition": "Initialism of ante Christum, (before Christ).",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [{ "text": "BC", "meaning": "ante Christum" }]
+                }
+            ]
+        },
+        {
+            "word": "ac",
+            "partOfSpeech": "phrase",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Initialism of all clear (as in button on electronic calculator).",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of ante cibum (before meals).",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [{ "text": "a.c.", "meaning": "ante cibum" }]
+                },
+                {
+                    "definition": "as charged, as in: guilty as charged, usually a/c.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ac",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "acs", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "account; money of account",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "alicyclic",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Abbreviation of acre.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Alternative letter-case form of AC (“air conditioning”)",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Alternative letter-case form of AC (“alternating current”)",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ac",
+            "partOfSpeech": "adj",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "ante cibum, before meals",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ac",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "Acs", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "The Acura Legend automobile.",
+                    "examples": [
+                        "1994, Notorious B.I.G., Unbelievable\nWith the Mac in the Ac door paneling"
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ac",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Initialism of air-conditioning.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Initialism of altocumulus cloud.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Abbreviation of acetate.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Abbreviation of acetyl.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "acropolis",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/LL-Q1860_%28eng%29-Vealhurl-acropolis.wav/LL-Q1860_%28eng%29-Vealhurl-acropolis.wav.mp3",
+                    "ipa": ""
+                },
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/LL-Q1860_%28eng%29-Vininn126-acropolis.wav/LL-Q1860_%28eng%29-Vininn126-acropolis.wav.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [
+                { "text": "acropolises", "type": "plural" },
+                { "text": "acropoleis", "type": "plural" }
+            ],
+            "meanings": [
+                {
+                    "definition": "A promontory (usually fortified with a citadel) forming the hub of many Grecian cities, and around which many were built for defensive purposes before and during the classical period; compare Acropolis.",
+                    "examples": [
+                        "The Etruscans, then, appear in general as an industrious people ( φιλότεχνον ἔθνος), of a bold and lofty spirit of enterprise, which was greatly favoured by their priestly aristocratic constitution. Massive walls, mostly of irregular blocks, surround their cities (not merely their acropoleis); the art of protecting the country from inundations by the construction of canals, and outlets from lakes, was very zealously practised by them."
+                    ],
+                    "antonyms": null,
+                    "synonyms": [{ "text": "akropolis", "meaning": "" }]
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "afghan",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "uk",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/LL-Q1860_%28eng%29-Vealhurl-Afghan.wav/LL-Q1860_%28eng%29-Vealhurl-Afghan.wav.mp3",
+                    "ipa": "/ˈæfˌɡæn/"
+                }
+            ],
+            "forms": [{ "text": "Afghans", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A person from Afghanistan.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "A person of Pashtun ethnicity.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Synonym of Afghan Hound.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [
+                        { "text": "Afghan Hound", "meaning": "" },
+                        { "text": "Aluan", "meaning": "" },
+                        { "text": "Aghwan", "meaning": "" }
+                    ]
+                }
+            ]
+        },
+        {
+            "word": "afghan",
+            "partOfSpeech": "adj",
+            "phonetics": [
+                {
+                    "type": "uk",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/LL-Q1860_%28eng%29-Vealhurl-Afghan.wav/LL-Q1860_%28eng%29-Vealhurl-Afghan.wav.mp3",
+                    "ipa": "/ˈæfˌɡæn/"
+                }
+            ],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Of, from, or pertaining to Afghanistan.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Of, from, or pertaining to the Pashtun ethnic community.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "afghan",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/En-us-afghan.ogg/En-us-afghan.ogg.mp3",
+                    "ipa": ""
+                },
+                {
+                    "type": "uk",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/EN-AU_ck1_afghan.ogg/EN-AU_ck1_afghan.ogg.mp3",
+                    "ipa": "/ˈæfˌɡæn/"
+                }
+            ],
+            "forms": [{ "text": "afghans", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A blanket or throw, usually crocheted or knitted.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "A type of iced chocolate biscuit, sometimes containing cornflakes and topped with a walnut.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "afro",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/LL-Q1860_%28eng%29-Vealhurl-afro.wav/LL-Q1860_%28eng%29-Vealhurl-afro.wav.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "afros", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "hairstyle characterized by tightly curled locks and a rounded shape.",
+                    "examples": [
+                        "sheʼd been unmissable sitting in the front row of the lecture theatre with a crazy-ass afro and stunning face"
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "A person of African ancestry",
+                    "examples": [
+                        "The Ghanaian government employed several Afros, as many of the expatriates called themselves, downplaying their Americanness, in ideological and infrastructure-building occupations.",
+                        "At the height of the American civil rights agitation, a number of members of the Black Panther movement moved to Tanzania, and lived outside Arusha where they formed a community, calling themselves ‘’Afros.’’",
+                        "Afrodescendants (or simply Afros) are the descendants of Africans who were dispersed."
+                    ],
+                    "antonyms": null,
+                    "synonyms": [
+                        {
+                            "text": "Afrodescendant",
+                            "meaning": "person of African descent"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "word": "afro",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "Afros", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Alternative form of afro",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "ag",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "uk",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6f/LL-Q1860_%28eng%29-Vealhurl-ag.wav/LL-Q1860_%28eng%29-Vealhurl-ag.wav.mp3",
+                    "ipa": "/æɡ/"
+                }
+            ],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Clipping of agriculture or agricultural.",
+                    "examples": [
+                        "He got his degree from the state ag college.",
+                        "My class is over on ag campus.",
+                        "Even the most ag-centric member of the Agriculture Committee […]",
+                        "[…] fruits and vegetables, oddly referred to in ag-speak as specialty crops, […]"
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ag",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "ags", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Clipping of aggregate (small rocks mixed into concrete).",
+                    "examples": [
+                        "The mix should include a good selection of large, medium, and small ag.",
+                        "If the mix is too fluid, the ags can sink away from the surface."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ag",
+            "partOfSpeech": "intj",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Expressing annoyance, remorse, surprise etc.; oh, ah.",
+                    "examples": [
+                        "Ag pleez Deddy won't you take us to the wrestling / We wanna see an ou called Sky High Lee",
+                        "‘Ag, fuck it,’ he said. ‘Let bygones be bygones, man.’",
+                        "Finally, after placing four books on the desk, he turned to a sheepish Kathy and said, ‘Ag, there's nothing wrong with these desks,’ and walked out."
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ag",
+            "partOfSpeech": "adv",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Abbreviation of again.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ag",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "ags", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Alternative letter-case form of AG (“aggressive (butch)”)",
+                    "examples": [
+                        "new forms of female masculinity are exploding, ranging from butches, dykes, and studs to transmen, FTMs, ags, genderqueers, individuals masculine-of-center, and many more. Transgender men and masculine women can make their own movies[…]",
+                        "I don't know what I'd do without them (smiles) Sometimes, I wonder why studs/ag's/butches/transguys be grilling one another in the club. I mean, in my mind, I'm like Why would you hate someone who look like you, act like you,[…]",
+                        "The context around stud enables us to understand its meaning among the W4W advertisers: Seeking lesbian stud, butch, ag, or tomboish women ONLY I'm a single stud (on the soft side) slim body type, tattoos, cute face, and great smile[…]"
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ag",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "AGs", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Initialism of Attorney General.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [
+                        { "text": "A.G.", "meaning": "attorney-general" },
+                        { "text": "A. G.", "meaning": "attorney-general" },
+                        { "text": "A-G", "meaning": "attorney-general" },
+                        { "text": "A.-G.", "meaning": "attorney-general" }
+                    ]
+                },
+                {
+                    "definition": "Initialism of Auditor General.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [
+                        { "text": "A.G.", "meaning": "auditor-general" },
+                        { "text": "A. G.", "meaning": "auditor-general" },
+                        { "text": "A-G", "meaning": "auditor-general" },
+                        { "text": "A.-G.", "meaning": "auditor-general" }
+                    ]
+                },
+                {
+                    "definition": "Abbreviation of agricultural aviation.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": [
+                        { "text": "A.G.", "meaning": "agricultural aviation" },
+                        { "text": "A. G.", "meaning": "agricultural aviation" },
+                        { "text": "AG", "meaning": "agricultural aviation" },
+                        { "text": "Ag.", "meaning": "agricultural aviation" },
+                        { "text": "Ag", "meaning": "agricultural aviation" }
+                    ]
+                },
+                {
+                    "definition": "An aggressive (a butch woman, especially a Black butch woman); an aggressive girl.",
+                    "examples": [
+                        "Cross-dressers in full bloom sang and danced beside Doms and AGs, butches and femmes joined arms with gay men and lesbians - all of them their own rainbow of Black, white, Latino, Asian.",
+                        "But I still cannot pretend that transgender in general does not continue to fail me when it does not fulfill its promise of butch inclusion. It fails all butches, AGs/aggressives, and studs who find themselves facing the same issues of[…]",
+                        "The opening club scene, in which AGs (aggressives/butches) flirt with femme performers is a compelling rush: you are right there.",
+                        "Our group had the attention of every stud, AG (aggressive girl), femme, and butch in the place. A stud sporting a Mohawk and lip ring approached us. Her eyes were as black as her skin.",
+                        "Acknowledgements I want to first thank all of the butches, bois, studs, AGs, bulldaggers, punks and trans mens who have been part of my world for the last twenty-something years. Thank you for our collective vulnerability and always[…]"
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ag",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [{ "text": "Ags", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "Abbreviation of August.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Abbreviation of agriculture.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Abbreviation of antigen.",
+                    "examples": ["Ag receptor"],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "ag",
+            "partOfSpeech": "noun",
+            "phonetics": [],
+            "forms": [],
+            "meanings": [
+                {
+                    "definition": "Abbreviation of August.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "adore",
+            "partOfSpeech": "verb",
+            "phonetics": [
+                {
+                    "type": "us",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cc/En-us-adore.ogg/En-us-adore.ogg.mp3",
+                    "ipa": "/əˈdɔɹ/"
+                }
+            ],
+            "forms": [
+                { "text": "adores", "type": "present singular third-person" },
+                { "text": "adoring", "type": "participle present" },
+                { "text": "adored", "type": "participle past" },
+                { "text": "adored", "type": "past" }
+            ],
+            "meanings": [
+                {
+                    "definition": "To worship.",
+                    "examples": [
+                        "Now, gods that we adore, whereof comes this?",
+                        "1758, Tobias Smollett, A Complete History of England, London: James Rivington and James Fletcher, 3rd edition, Volume 6, Book 8, “William III,” p. 29,\n[James] was met at the castle-gate by a procession of […] bishops and priests in their pontificals, bearing the host, which he publicly adored.",
+                        "O come, let us adore Him,\nChrist the Lord."
+                    ],
+                    "antonyms": [{ "text": "disdain", "meaning": "" }],
+                    "synonyms": null
+                },
+                {
+                    "definition": "To love with one's entire heart and soul; regard with deep respect and affection.",
+                    "examples": [
+                        "It is obvious to everyone that Gerry adores Heather.",
+                        "The great mass of the population abhorred Popery and adored Monmouth."
+                    ],
+                    "antonyms": [{ "text": "disdain", "meaning": "" }],
+                    "synonyms": null
+                },
+                {
+                    "definition": "To be very fond of.",
+                    "examples": [
+                        "\"I ought to arise and go forth with timbrels and with dances; but, do you know, I am not inclined to revels? There has been a little—just a very little bit too much festivity so far …. Not that I don't adore dinners and gossip and dances; not that I do not love to pervade bright and glittering places.[…]\""
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "To adorn.",
+                    "examples": [
+                        "[…] and likewise on her hed\nA Chapelet of sundry flowers she wore,\nFrom vnder which the deawy humour shed,\nDid tricle downe her haire, like to the hore\nCongealed litle drops, which doe the morne adore."
+                    ],
+                    "antonyms": [{ "text": "disdain", "meaning": "" }],
+                    "synonyms": null
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "word": "african",
+            "partOfSpeech": "adj",
+            "phonetics": [
+                {
+                    "type": "uk",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/LL-Q1860_%28eng%29-Vealhurl-African.wav/LL-Q1860_%28eng%29-Vealhurl-African.wav.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [
+                { "text": "more African", "type": "comparative" },
+                { "text": "most African", "type": "superlative" }
+            ],
+            "meanings": [
+                {
+                    "definition": "Of or pertaining to Africa.",
+                    "examples": [],
+                    "antonyms": null,
+                    "synonyms": null
+                },
+                {
+                    "definition": "Black; (dated) synonym of negroid.",
+                    "examples": [
+                        "The truth is that I know the guy had African skin and a shirt of some sort.",
+                        "In vivo and in vitro approaches in understanding the differences between Caucasian and African skin types: […]"
+                    ],
+                    "antonyms": null,
+                    "synonyms": null
+                }
+            ]
+        },
+        {
+            "word": "african",
+            "partOfSpeech": "noun",
+            "phonetics": [
+                {
+                    "type": "uk",
+                    "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/LL-Q1860_%28eng%29-Vealhurl-African.wav/LL-Q1860_%28eng%29-Vealhurl-African.wav.mp3",
+                    "ipa": ""
+                }
+            ],
+            "forms": [{ "text": "Africans", "type": "plural" }],
+            "meanings": [
+                {
+                    "definition": "A native of Africa; also one ethnologically belonging to an African race.",
+                    "examples": [
+                        "Africans constitute significantly growing populations not only in major urban centers such as New York, Washington, D.C., Chicago, Los Angeles, Houston, and Atlanta but also in small and midsize cities in states such as Ohio and Maine.",
+                        "But new research suggests another possibility: all Africans may have ancestry from “West Eurasian” populations which moved back into Africa after the “Out of Africa” event ~50,000 years ago. […]"
+                    ],
+                    "antonyms": null,
+                    "synonyms": [
+                        { "text": "Afrikan", "meaning": "" },
+                        { "text": "Afric", "meaning": "" },
+                        {
+                            "text": "Afro-",
+                            "meaning": "person who lives in or originates from Africa"
+                        },
+                        {
+                            "text": "Nubian",
+                            "meaning": "person who lives in or originates from Africa"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+]

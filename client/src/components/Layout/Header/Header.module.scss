@@ -1,0 +1,301 @@
+.header-area {
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+// ---- Account ----
+
+.account {
+    text-align: end;
+    background-color: #b0d5ee;
+    padding: 10px 0;
+}
+
+.account .split {
+    margin: 0 5px;
+    cursor: default;
+}
+
+// ---- Login and Register ----
+
+.link-login,
+.link-register,
+.link-logout {
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba($color: #000000, $alpha: .3);
+    overflow: hidden;
+    transition: var(--transition);
+    display: none;
+    z-index: 100;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.login-wrapper,
+.register-wrapper {
+    background: var(--white-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem;
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.login-area .login-title,
+.register-area .register-title {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.login-area .user-account,
+.login-area .btn,
+.register-area .user-account,
+.register-area .btn {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.user-account input {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid var(--gray-color);
+    width: 300px;
+}
+
+.user-account>* {
+    margin-top: 30px;
+    position: relative;
+
+    &:last-child {
+        margin-top: 35px;
+    }
+}
+
+.user-account span.correct {
+    color: rgb(46, 164, 10);
+    font-size: 1.2rem;
+    position: absolute;
+    top: 105%;
+    left: 5px;
+}
+
+.user-account span.wrong {
+    color: rgb(255, 12, 12);
+    font-size: 1.2rem;
+    position: absolute;
+    top: 105%;
+    left: 5px;
+}
+
+.user-account input:focus {
+    border: 1px solid var(--white-color);
+    outline: 1px solid var(--outline-input-color);
+}
+
+.user-account input:focus+.form-label,
+.user-account input:valid+.form-label {
+    transform: scale(.8) translateY(-50%);
+    top: 0;
+    transform-origin: 0 0;
+    background-color: #ffffff;
+    padding: 0 5px;
+    left: 14px;
+}
+
+.user-account .form-label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: var(--placeholder-color);
+    pointer-events: none;
+    transition: .2s;
+}
+
+.login-area .btn button,
+.register-area .btn button {
+    display: inline-block;
+    color: var(--white-color);
+    font-weight: 600;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: var(--transition);
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.btn .btn-login,
+.btn .btn-register {
+    margin-right: 15px;
+}
+
+.btn-close {
+    font-size: 2rem;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+}
+
+// ---- Top header ----
+
+.top-header {
+    background: var(--primary-color);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .icon {
+    margin-right: 5px;
+}
+
+// ---- Logo ----
+
+.logo {
+    width: 20%;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 100%;
+}
+
+// ---- Search bar ----
+
+.search {
+    width: 40%;
+}
+
+.search input {
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+// ---- Irregular verb ----
+
+.irregular .irregular-open,
+.note .note-open {
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
+.irregular a {
+    color: var(--text-color-2);
+}
+
+// ---- Note ----
+.note a {
+    color: var(--text-color-2);
+}
+
+
+
+// ----------- RESPONSIVE -----------
+
+@media screen and (max-width: 1199px) {
+    .search {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .search {
+        width: 50%;
+    }
+
+    .irregular .irregular-open,
+    .note .note-open {
+        font-size: 2.5rem;
+    }
+
+    .irregular .irregular-open>span,
+    .note .note-open>span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .login-wrapper,
+    .register-wrapper {
+        font-size: 1.2rem;
+        padding: 20px 50px;
+    }
+
+    .login-area .login-title,
+    .register-area .register-title {
+        font-size: 2.8rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .user-account input {
+        width: 250px;
+    }
+
+    .irregular .irregular-open,
+    .note .note-open {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .header-area {
+        font-size: 1.3rem;
+        color: var(--text-color);
+    }
+
+    .irregular .irregular-open,
+    .note .note-open {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 539px) {
+
+    .login-wrapper,
+    .register-wrapper {
+        font-size: 1.1rem;
+    }
+
+    .login-area .login-title,
+    .register-area .register-title {
+        font-size: 2.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .search input {
+        padding: 6px 12px;
+    }
+
+    .irregular .irregular-open,
+    .note .note-open {
+        font-size: 1.8rem;
+    }
+}

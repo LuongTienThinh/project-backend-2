@@ -1,0 +1,11 @@
+.list-game {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-game > * {
+    width: 30%;
+    margin: 10px 0;
+}

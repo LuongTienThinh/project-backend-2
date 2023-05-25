@@ -1,0 +1,26 @@
+.game-item {
+    text-align: center;
+}
+
+.game-item img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.game-item button {
+    margin-top: 10px;
+    border: 2px solid var(--filter-color);
+    background-color: var(--filter-color);
+    color: var(--white-color);
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+
+    &:hover {
+        background-color: transparent;
+        color: var(--filter-color);
+    }
+}
