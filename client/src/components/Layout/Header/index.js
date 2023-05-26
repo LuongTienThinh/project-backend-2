@@ -24,12 +24,19 @@ function Header() {
     const [regisUser, setRegisUser] = useState('');
     const [regisPass, setRegisPass] = useState('');
     const [regisConfirmPass, setRegisConfirmPass] = useState('');
+    const [listGame, setListGame] = useState([]);
 
     useEffect(() => {
         axios.get(`http://127.0.0.1:8000/api/list-users`).then((response) => {
             setListUsers(response.data);
         });
     }, [addUser]);
+
+    useEffect(() => {
+        axios.get(`http://127.0.0.1:8000/api/list-game`).then((response) => {
+            setListGame(response.data);
+        });
+    }, []);
 
     useEffect(() => {
         const handleClick = (obj) => {
@@ -395,44 +402,15 @@ function Header() {
 
                                 {/* Notification */}
                                 <ListNotify
-                                    listNotify={[
-                                        {
-                                            title: 'Irregular verb',
-                                            image: './irregular.jpg',
+                                    listNotify={listGame.map((game) => {
+                                        return {
+                                            id: game["id"],
+                                            title: game['game_name'],
+                                            image: game['game_image'],
                                             description:
-                                                'A officia dolor illo nostrum quis asperiores, rem excepturi ea autem voluptates est voluptatum quod nemo tenetur harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-                                        },
-                                        {
-                                            title: 'Part of Speech',
-                                            image: './part-of-speech.jpg',
-                                            description:
-                                                'A officia dolor illo nostrum quis asperiores, rem excepturi ea autem voluptates est voluptatum quod nemo tenetur harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-                                        },
-                                        {
-                                            title: 'Sentence',
-                                            image: './sentence.jpg',
-                                            description:
-                                                'A officia dolor illo nostrum quis asperiores, rem excepturi ea autem voluptates est voluptatum quod nemo tenetur harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-                                        },
-                                        {
-                                            title: 'Irregular verb',
-                                            image: './irregular.jpg',
-                                            description:
-                                                'A officia dolor illo nostrum quis asperiores, rem excepturi ea autem voluptates est voluptatum quod nemo tenetur harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-                                        },
-                                        {
-                                            title: 'Part of Speech',
-                                            image: './part-of-speech.jpg',
-                                            description:
-                                                'A officia dolor illo nostrum quis asperiores, rem excepturi ea autem voluptates est voluptatum quod nemo tenetur harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-                                        },
-                                        {
-                                            title: 'Sentence',
-                                            image: './sentence.jpg',
-                                            description:
-                                                'A officia dolor illo nostrum quis asperiores, rem excepturi ea autem voluptates est voluptatum quod nemo tenetur harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-                                        },
-                                    ]}
+                                                'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto recusandae, excepturi aperiam temporibus similique sed debitis eveniet cum repellat, facilis dolor veniam reiciendis dolorum nisi rerum id voluptates eum libero!',
+                                        };
+                                    })}
                                 />
                                 {/* End Notification */}
                             </div>

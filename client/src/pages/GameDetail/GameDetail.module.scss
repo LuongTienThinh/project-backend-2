@@ -119,7 +119,8 @@
 .history-overlay,
 .pause-overlay,
 .setting-overlay,
-.rank-overlay {
+.rank-overlay,
+.finish-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -223,13 +224,13 @@
 }
 
 
-.setting-list .setting-item{
+.setting-list .setting-item {
     display: flex;
     align-items: center;
     font-size: 2.5rem;
-    color:  var(--primary-color);
+    color: var(--primary-color);
 
-    & > * {
+    &>* {
         width: 50%;
     }
 
@@ -298,7 +299,7 @@
     font-size: 3.5rem;
 
 
-    
+
 
     &:hover {
         background-color: var(--game-color);

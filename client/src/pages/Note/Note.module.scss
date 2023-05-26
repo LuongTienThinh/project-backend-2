@@ -3,8 +3,24 @@
     margin: 0 auto;
 }
 
+.note .title {
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+.note .wrapper {
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    line-height: 1.5;
+}
+
 .list-note-word {
     width: 100%;
+    margin-top: 20px;
 }
 
 .list-note-word table {
@@ -21,11 +37,6 @@
     padding: 8px;
     text-align: center;
     word-wrap: break-word;
-}
-
-.list-note-word th:not(:last-child),
-.list-note-word td:not(:last-child) {
-    width: 20%;
 }
 
 .number-ordered {

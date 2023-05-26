@@ -85,11 +85,23 @@ class VocabularyController extends Controller
         //
     }
 
-    public function getNotesByUser($user_id)
+    public function getIrregularByUser($user_id)
     {
         $data = DB::table('note_word')
+            ->select('note_word.*', 'irregulars.*')
             ->join('users', 'note_word.user_id', '=', 'users.id')
             ->join('irregulars', 'note_word.irregular_id', '=', 'irregulars.id')
+            ->where('users.id', $user_id)
+            ->get();
+        return response()->json($data);
+    }
+
+    public function getVocabularyByUser($user_id)
+    {
+        $data = DB::table('note_word')
+            ->select('note_word.*', 'vocabulary.*')
+            ->join('users', 'note_word.user_id', '=', 'users.id')
+            ->join('vocabulary', 'note_word.word_id', '=', 'vocabulary.id')
             ->where('users.id', $user_id)
             ->get();
         return response()->json($data);

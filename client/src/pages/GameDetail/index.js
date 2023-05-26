@@ -12,6 +12,7 @@ import base from '~/components/BaseStyle/BaseStyle.module.scss';
 import styles from './GameDetail.module.scss';
 import images from './image';
 import { UserContext } from '~/contexts/UserContext';
+import { faL } from '@fortawesome/free-solid-svg-icons';
 
 const cx = classNames.bind(styles);
 const cbase = classNames.bind(base);
@@ -31,6 +32,10 @@ function GameDetail() {
     const [fontSize, setFontSize] = useState(true);
     const [autoNext, setAutoNext] = useState(true);
 
+    const [countDown, setCountDown] = useState(20);
+    const [isCounting, setIsCounting] = useState(false);
+    const [score, setScore] = useState(0);
+
     useLayoutEffect(() => {
         axios.get(`http://127.0.0.1:8000/api/game-${id}`).then((response) => {
             setGame(response.data);
@@ -43,7 +48,7 @@ function GameDetail() {
         axios.get(`http://127.0.0.1:8000/api/ranks-${id}`).then((response) => {
             setRanks(response.data);
         });
-    }, []);
+    }, [id]);
 
     useLayoutEffect(() => {
         axios.get(`http://127.0.0.1:8000/api/history-${userContext.user.id}-${id}`).then((response) => {
@@ -53,7 +58,7 @@ function GameDetail() {
         gamePractice(false);
         gameCompetition(false);
         gameHome(true);
-    }, [userContext.user]);
+    }, [userContext.user, id]);
 
     useEffect(() => {
         document.addEventListener('keyup', (event) => {
@@ -63,6 +68,10 @@ function GameDetail() {
             }
         });
     }, []);
+
+    useEffect(() => {
+        document.querySelector(`.${cx('competition-score')}`).value = score;
+    }, [score]);
 
     const handleNext = (mode) => {
         const v1 = document.getElementById(`${cx(`${mode}-v1`)}`);
@@ -91,9 +100,12 @@ function GameDetail() {
         const input = document.getElementById(`${cx(`${mode}-v${displayValue}`)}`);
         input.disabled = true;
         input.value = irregular[position][displayValue == 1 ? 'base' : displayValue == 2 ? 'past' : 'participle'];
+        console.log(irregular[position]);
     };
 
     const handleSubmit = (mode) => {
+        console.log(position);
+        let flag = true;
         const v1 = document.getElementById(`${cx(`${mode}-v1`)}`);
         const v2 = document.getElementById(`${cx(`${mode}-v2`)}`);
         const v3 = document.getElementById(`${cx(`${mode}-v3`)}`);
@@ -102,16 +114,23 @@ function GameDetail() {
             v1.style.borderColor = 'var(--check-correct)';
         } else {
             v1.style.borderColor = 'var(--check-wrong)';
+            flag = false;
         }
         if (irregular[position]['past'] == v2.value) {
             v2.style.borderColor = 'var(--check-correct)';
         } else {
             v2.style.borderColor = 'var(--check-wrong)';
+            flag = false;
         }
         if (irregular[position]['participle'] == v3.value) {
             v3.style.borderColor = 'var(--check-correct)';
         } else {
             v3.style.borderColor = 'var(--check-wrong)';
+            flag = false;
+        }
+
+        if (flag) {
+            setScore(score + 1000);
         }
 
         v1.disabled = true;
@@ -169,6 +188,23 @@ function GameDetail() {
         return obj ? BsToggle2On : BsToggle2Off;
     };
 
+    useEffect(() => {
+        let timeoutId;
+        if (isCounting) {
+            if (countDown == 0) {
+                setIsCounting(false);
+                document.querySelector(`.${cx('finish-overlay')}`).style.display = 'block';
+            }
+            timeoutId = setTimeout(() => {
+                setCountDown(countDown - 1);
+            }, 1000);
+        }
+
+        return () => {
+            clearTimeout(timeoutId);
+        };
+    }, [countDown, isCounting]);
+
     return (
         <>
             <Header />
@@ -201,12 +237,10 @@ function GameDetail() {
                                 id={cx('add-note-btn')}
                                 onClick={(e) => {
                                     console.log(userContext.user.id, irregular[position]['id']);
-                                    axios
-                                        .post('http://127.0.0.1:8000/api/notes-irregular', {
-                                            user_id: userContext.user.id,
-                                            irregular_id: irregular[position]['id'],
-                                        })
-                                        .then((response) => {});
+                                    axios.post('http://127.0.0.1:8000/api/notes-irregular', {
+                                        user_id: userContext.user.id,
+                                        irregular_id: irregular[position]['id'],
+                                    });
                                 }}
                             >
                                 Add note
@@ -238,6 +272,10 @@ function GameDetail() {
                                         gameHome(false);
                                         gameCompetition(true);
                                         handleNext('competition');
+                                        setScore(0);
+                                        setIsCounting(true);
+                                        setCountDown(20);
+                                        document.querySelector(`.${cx('finish-overlay')}`).style.display = 'none';
                                     }}
                                 >
                                     Competition
@@ -307,7 +345,7 @@ function GameDetail() {
                             <div className={cx('competition-mode')}>
                                 <div className={cx('game-content')}>
                                     <div className={cx('time-remaining')}>
-                                        Time: <div className={cx('time-cooldown')}>1:30</div>
+                                        Time: <div className={cx('time-cooldown')}>{countDown}s</div>
                                     </div>
                                     <div className={cx('game-column')}>
                                         <div>Base</div>
@@ -487,6 +525,45 @@ function GameDetail() {
                                             document.querySelector(`.${cx('rank-overlay')}`).style.display = 'none';
                                         }}
                                     />
+                                </div>
+                            </div>
+                            <div className={cx('finish-overlay')}>
+                                <div className={cx('overlay')}>
+                                    <div className={cx('title')}>Finish</div>
+                                    <div className={cx('control-btn')}>
+                                        <div
+                                            className={cx('btn')}
+                                            onClick={(e) => {
+                                                document.querySelector(`.${cx('finish-overlay')}`).style.display =
+                                                    'none';
+                                                handleNext('competition');
+                                                const nextBtn = document.getElementById(`${cx('competition-next')}`);
+                                                nextBtn.disabled = false;
+                                                nextBtn.style.pointerEvent = 'unset';
+                                                nextBtn.onclick = () => {
+                                                    handleNext('competition');
+                                                    nextBtn.disabled = true;
+                                                    nextBtn.style.pointerEvent = 'none';
+                                                };
+                                                setCountDown(20);
+                                                setIsCounting(true);
+                                                setScore(0);
+                                            }}
+                                        >
+                                            Play again
+                                        </div>
+                                        <div
+                                            className={cx('btn')}
+                                            onClick={(e) => {
+                                                document.querySelector(`.${cx('finish-overlay')}`).style.display =
+                                                    'none';
+                                                gameCompetition(false);
+                                                gameHome(true);
+                                            }}
+                                        >
+                                            Cancel
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

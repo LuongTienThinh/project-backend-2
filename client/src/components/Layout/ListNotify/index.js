@@ -18,7 +18,7 @@ function ListNotify({ listNotify }) {
             </div>
             <ul className={cx('notify-list')}>
                 {listNotify.map((e, i) => (
-                    <Notify key={i} title={e.title} image={e.image} description={e.description} />
+                    <Notify key={i} id={e.id} title={e.title} image={e.image} description={e.description} />
                 ))}
             </ul>
         </div>

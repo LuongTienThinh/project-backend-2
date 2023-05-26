@@ -68,7 +68,8 @@ Route::post('/notes-word', function(Request $request) {
     DB::table('note_word')->insert(["user_id" => $user, "word_id" => $word, "irregular_id" => 0]);
 });
 
-Route::get('/notes-irregular-{user_id}', [VocabularyController::class, 'getNotesByUser']);
+Route::get('/notes-vocabulary-{user_id}', [VocabularyController::class, 'getVocabularyByUser']);
+Route::get('/notes-irregular-{user_id}', [VocabularyController::class, 'getIrregularByUser']);
 
 Route::post('/notes-irregular', function(Request $request) {
     $user = $request->input('user_id');

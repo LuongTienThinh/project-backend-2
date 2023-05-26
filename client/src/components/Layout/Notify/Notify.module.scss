@@ -6,6 +6,12 @@
     background-color: var(--filter-color);
 }
 
+.notify-item a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
 .notify-item:not(:first-child) {
     border-top: 1px solid var(--gray-color);
 }

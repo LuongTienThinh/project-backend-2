@@ -12,7 +12,7 @@ class Games extends Model
     protected $fillable = [
         'game_name',
         'game_image',
-        'game_topic',
-        'game_action'
+        'topic',
+        'action'
     ];
 }

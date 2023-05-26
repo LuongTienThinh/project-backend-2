@@ -25,9 +25,9 @@ class GamesSeeder extends FoostartSeeder
 
         //
         $data = [
-            ["game_name" => "Irregular verb", "game_image" => "./irregular.jpg"],
-            ["game_name" => "Part of speech", "game_image" => "./part-of-speech.jpg"],
-            ["game_name" => "Sentence", "game_image" => "./sentence.jpg"],
+            ["game_name" => "Irregular verb", "game_image" => "./irregular.jpg", "topic" => 1, "action" => 2],
+            ["game_name" => "Part of speech", "game_image" => "./part-of-speech.jpg", "topic" => 3, "action" => 2],
+            ["game_name" => "Sentence", "game_image" => "./sentence.jpg", "topic" => 2, "action" => 1],
         ];
         DB::table('games')->insert($data);
     }

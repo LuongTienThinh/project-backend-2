@@ -25,6 +25,8 @@ class CreateGamesTable extends FoostartMigration
             $table->increments('id')->comment('Game id');
             $table->string('game_name', 100);
             $table->string('game_image', 100);
+            $table->integer('topic');
+            $table->integer('action');
 
             // Set common columns
             $this->setCommonColumns($table);

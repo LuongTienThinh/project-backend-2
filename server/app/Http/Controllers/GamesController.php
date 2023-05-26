@@ -89,7 +89,11 @@ class GamesController extends Controller
 
     public function getListGame()
     {
-        $data = Games::all();
+        $data = DB::table('games')
+        ->select('games.*', 'topic.topic_name', 'action.action_name')
+        ->join('topic', 'topic.id', '=', 'games.topic')
+        ->join('action', 'action.id', '=', 'games.action')
+        ->get();
         return response()->json($data);
     }
 

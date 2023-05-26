@@ -16,6 +16,8 @@ function Home() {
     const [listTopic, setListTopic] = useState([]);
     const [listAction, setListAction] = useState([]);
     const [listGame, setListGame] = useState([]);
+    const [searchGame, setSearchGame] = useState('');
+    const [searchListGame, setSearchListGame] = useState([]);
 
     useEffect(() => {
         const handleFilter = (typeFilter) => {
@@ -38,6 +40,7 @@ function Home() {
             .then((response) => response.json())
             .then((result) => {
                 setListGame(result);
+                setSearchListGame(result);
             });
 
         fetch(`http://127.0.0.1:8000/api/topics`)
@@ -68,18 +71,69 @@ function Home() {
                 <div className={cbase('container')}>
                     <div className={cx('list-filter')}>
                         <div className={cx('search-game')}>
-                            <input placeholder="Search game here..." />
-                            <button>Search</button>
+                            <input
+                                placeholder="Search game here..."
+                                onChange={(e) => {
+                                    setSearchGame(e.target.value);
+                                }}
+                            />
+                            <button
+                                onClick={() => {
+                                    console.log();
+                                    setSearchListGame(
+                                        listGame.filter((game) => {
+                                            const topic = document.querySelector(
+                                                `.${cx('topic-item')}.${cx('active')}`,
+                                            );
+                                            const action = document.querySelector(
+                                                `.${cx('action-item')}.${cx('active')}`,
+                                            );
+                                            if (game['game_name'].toLowerCase().includes(searchGame.toLowerCase())) {
+                                                if (topic.textContent != 'All') {
+                                                    if (topic.textContent == game['topic_name']) {
+                                                        if (action.textContent != 'All') {
+                                                            if (action.textContent == game['action_name']) {
+                                                                return true;
+                                                            }
+                                                        } else {
+                                                            return true;
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (action.textContent != 'All') {
+                                                        if (action.textContent == game['action_name']) {
+                                                            return true;
+                                                        }
+                                                    } else {
+                                                        return true;
+                                                    }
+                                                }
+                                            }
+                                            return false;
+                                        }),
+                                    );
+                                }}
+                            >
+                                Search
+                            </button>
                         </div>
                         <div className={cx('topic')}>Topic:</div>
                         <ul className={cx('list-topic')}>
                             <li className={cx('topic-item', 'active')}>All</li>
-                            {listTopic.map((topic) => <li className={cx('topic-item')}>{topic["topic_name"]}</li>)}
+                            {listTopic.map((topic, i) => (
+                                <li key={i} className={cx('topic-item')}>
+                                    {topic['topic_name']}
+                                </li>
+                            ))}
                         </ul>
                         <div className={cx('action')}>Action:</div>
                         <ul className={cx('list-action')}>
                             <li className={cx('action-item', 'active')}>All</li>
-                            {listAction.map((action) => <li className={cx('action-item')}>{action["action_name"]}</li>)}
+                            {listAction.map((action, i) => (
+                                <li key={i} className={cx('action-item')}>
+                                    {action['action_name']}
+                                </li>
+                            ))}
                         </ul>
                     </div>
                 </div>
@@ -89,7 +143,7 @@ function Home() {
             {/* List game */}
             <section className={cx('list-game')}>
                 <div className={cbase('container')}>
-                    <ListGame listGame={listGame} />
+                    <ListGame listGame={searchListGame} />
                 </div>
             </section>
             {/* End List game */}
