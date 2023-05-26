@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import { useContext, useEffect, useLayoutEffect, useState } from 'react';
+import { useContext, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { IoIosCloseCircleOutline } from 'react-icons/io';
@@ -12,7 +12,7 @@ import base from '~/components/BaseStyle/BaseStyle.module.scss';
 import styles from './GameDetail.module.scss';
 import images from './image';
 import { UserContext } from '~/contexts/UserContext';
-import { faL } from '@fortawesome/free-solid-svg-icons';
+import audioFile from '~/assets/audios/Lobby-Time.mp3';
 
 const cx = classNames.bind(styles);
 const cbase = classNames.bind(base);
@@ -25,12 +25,13 @@ function GameDetail() {
     const [listUserScores, setListUserScores] = useState([]);
     const [ranks, setRanks] = useState([]);
     const [irregular, setIrregular] = useState([]);
-    let position = Math.floor(Math.random() * 603);
+    const position = useRef(Math.floor(Math.random() * 603));
 
+    const audioRef = useRef(null);
     const [sound, setSound] = useState(false);
     const [theme, setTheme] = useState(false);
-    const [fontSize, setFontSize] = useState(true);
-    const [autoNext, setAutoNext] = useState(true);
+    const [fontSize, setFontSize] = useState('medium');
+    const [autoNext, setAutoNext] = useState(false);
 
     const [countDown, setCountDown] = useState(20);
     const [isCounting, setIsCounting] = useState(false);
@@ -61,17 +62,101 @@ function GameDetail() {
     }, [userContext.user, id]);
 
     useEffect(() => {
+        axios.get(`http://127.0.0.1:8000/api/history-${userContext.user.id}-${id}`).then((response) => {
+            setListUserScores(response.data);
+        });
+
+        axios.get(`http://127.0.0.1:8000/api/ranks-${id}`).then((response) => {
+            setRanks(response.data);
+        });
+    }, [score]);
+
+    useEffect(() => {
         document.addEventListener('keyup', (event) => {
             if (event.key === 'Enter') {
                 event.preventDefault();
-                document.querySelector(`.${cx('submit-btn')}`).click();
+                document.querySelectorAll(`.${cx('submit-btn')}`).forEach((e) => e.click());
             }
+        });
+
+        const fontSizes = document.querySelectorAll(`.${cx('font-size')}`);
+        fontSizes.forEach((fs) => {
+            fs.addEventListener('click', () => {
+                fontSizes.forEach((f) => {
+                    f.classList.remove(`${cx('inset')}`);
+                });
+                fs.classList.add(`${cx('inset')}`);
+                setFontSize(fs.textContent.toLowerCase());
+            });
         });
     }, []);
 
     useEffect(() => {
         document.querySelector(`.${cx('competition-score')}`).value = score;
     }, [score]);
+
+    const handleSound = (flag) => {
+        if (flag) {
+            console.log(1, audioRef.current);
+            audioRef.current.play();
+        } else {
+            console.log(2);
+            audioRef.current.pause();
+        }
+    };
+
+    const changeTheme = (theme) => {
+        const root = document.documentElement;
+        if (theme == 'light') {
+            root.style.setProperty('--background-game-area-color', '#ffffff');
+            root.style.setProperty('--background-game-color', '#4a98cb');
+            root.style.setProperty('--background-game-color-2', '#ebdac1');
+            root.style.setProperty('--background-game-color-3', '#082c69');
+            root.style.setProperty('--text-game-color', 'azure');
+            root.style.setProperty('--text-game-color-2', '#000000');
+        } else {
+            root.style.setProperty('--background-game-area-color', '#434444');
+            root.style.setProperty('--background-game-color', '#20545a');
+            root.style.setProperty('--background-game-color-2', '#a7a7a7');
+            root.style.setProperty('--background-game-color-3', '#001a30');
+            root.style.setProperty('--text-game-color', 'azure');
+            root.style.setProperty('--text-game-color-2', '#000000');
+        }
+    };
+
+    useEffect(() => {
+        const titleMedium = 4.5;
+        const toggleMedium = 4;
+        const textMedium = 3.5;
+        const gameMedium = 3;
+        const controlMedium = 2.5;
+        const normalMedium = 2;
+
+        const root = document.documentElement;
+
+        if (fontSize == 'small') {
+            root.style.setProperty('--title-game-size', `${titleMedium - 0.2}rem`);
+            root.style.setProperty('--toggle-game-size', `${toggleMedium - 0.2}rem`);
+            root.style.setProperty('--text-game-size', `${textMedium - 0.2}rem`);
+            root.style.setProperty('--game-mode-size', `${gameMedium - 0.2}rem`);
+            root.style.setProperty('--control-game-size', `${controlMedium - 0.2}rem`);
+            root.style.setProperty('--normal-game-size', `${normalMedium - 0.2}rem`);
+        } else if (fontSize == 'medium') {
+            root.style.setProperty('--title-game-size', `${titleMedium}rem`);
+            root.style.setProperty('--toggle-game-size', `${toggleMedium}rem`);
+            root.style.setProperty('--text-game-size', `${textMedium}rem`);
+            root.style.setProperty('--game-mode-size', `${gameMedium}rem`);
+            root.style.setProperty('--control-game-size', `${controlMedium}rem`);
+            root.style.setProperty('--normal-game-size', `${normalMedium}rem`);
+        } else {
+            root.style.setProperty('--title-game-size', `${titleMedium + 0.2}rem`);
+            root.style.setProperty('--toggle-game-size', `${toggleMedium + 0.2}rem`);
+            root.style.setProperty('--text-game-size', `${textMedium + 0.2}rem`);
+            root.style.setProperty('--game-mode-size', `${gameMedium + 0.2}rem`);
+            root.style.setProperty('--control-game-size', `${controlMedium + 0.2}rem`);
+            root.style.setProperty('--normal-game-size', `${normalMedium + 0.2}rem`);
+        }
+    }, [fontSize]);
 
     const handleNext = (mode) => {
         const v1 = document.getElementById(`${cx(`${mode}-v1`)}`);
@@ -89,7 +174,7 @@ function GameDetail() {
     };
 
     const handleRandom = (mode) => {
-        position = Math.floor(Math.random() * irregular.length);
+        position.current = Math.floor(Math.random() * irregular.length);
         const displayValue = 1 + Math.floor(Math.random() * 3);
 
         const inputs = document.querySelectorAll(`.${cx(`${mode}-text-field`)}`);
@@ -99,30 +184,31 @@ function GameDetail() {
         });
         const input = document.getElementById(`${cx(`${mode}-v${displayValue}`)}`);
         input.disabled = true;
-        input.value = irregular[position][displayValue == 1 ? 'base' : displayValue == 2 ? 'past' : 'participle'];
-        console.log(irregular[position]);
+        input.value =
+            irregular[position.current][displayValue == 1 ? 'base' : displayValue == 2 ? 'past' : 'participle'];
+        console.log(irregular[position.current]);
     };
 
     const handleSubmit = (mode) => {
-        console.log(position);
+        console.log(position.current + 1);
         let flag = true;
         const v1 = document.getElementById(`${cx(`${mode}-v1`)}`);
         const v2 = document.getElementById(`${cx(`${mode}-v2`)}`);
         const v3 = document.getElementById(`${cx(`${mode}-v3`)}`);
 
-        if (irregular[position]['base'] == v1.value) {
+        if (irregular[position.current]['base'] == v1.value) {
             v1.style.borderColor = 'var(--check-correct)';
         } else {
             v1.style.borderColor = 'var(--check-wrong)';
             flag = false;
         }
-        if (irregular[position]['past'] == v2.value) {
+        if (irregular[position.current]['past'] == v2.value) {
             v2.style.borderColor = 'var(--check-correct)';
         } else {
             v2.style.borderColor = 'var(--check-wrong)';
             flag = false;
         }
-        if (irregular[position]['participle'] == v3.value) {
+        if (irregular[position.current]['participle'] == v3.value) {
             v3.style.borderColor = 'var(--check-correct)';
         } else {
             v3.style.borderColor = 'var(--check-wrong)';
@@ -151,6 +237,15 @@ function GameDetail() {
             document.querySelector(`.${cx('game-home')}`).style.display = 'flex';
             document.getElementById(cx('history-btn')).style.transition = 'block';
             document.getElementById(cx('history-btn')).style.display = 'block';
+            if (userContext.user['id'] == undefined) {
+                document.getElementById(`${cx('competition-btn')}`).disabled = true;
+                document.getElementById(`${cx('competition-btn')}`).style.pointerEvents = 'none';
+                document.getElementById(`${cx('competition-btn')}`).style.opacity = '.5';
+            } else {
+                document.getElementById(`${cx('competition-btn')}`).disabled = false;
+                document.getElementById(`${cx('competition-btn')}`).style.pointerEvents = 'unset';
+                document.getElementById(`${cx('competition-btn')}`).style.opacity = 'unset';
+            }
         }
     };
 
@@ -194,6 +289,11 @@ function GameDetail() {
             if (countDown == 0) {
                 setIsCounting(false);
                 document.querySelector(`.${cx('finish-overlay')}`).style.display = 'block';
+                axios.post('http://127.0.0.1:8000/api/scores', {
+                    user_id: userContext.user.id,
+                    game_id: id,
+                    score: score,
+                });
             }
             timeoutId = setTimeout(() => {
                 setCountDown(countDown - 1);
@@ -207,6 +307,9 @@ function GameDetail() {
 
     return (
         <>
+            <audio id="background-audio" ref={audioRef} loop>
+                <source src={audioFile} type="audio/mpeg" />
+            </audio>
             <Header />
             <section className={cx('game')}>
                 <div className={cbase('container')}>
@@ -226,6 +329,7 @@ function GameDetail() {
                                 id={cx('pause-btn')}
                                 onClick={(e) => {
                                     document.querySelector(`.${cx('pause-overlay')}`).style.display = 'block';
+                                    setIsCounting(false);
                                 }}
                             >
                                 Pause
@@ -236,10 +340,10 @@ function GameDetail() {
                                 className={cx('add-note')}
                                 id={cx('add-note-btn')}
                                 onClick={(e) => {
-                                    console.log(userContext.user.id, irregular[position]['id']);
+                                    console.log(userContext.user.id, irregular[position.current]['id']);
                                     axios.post('http://127.0.0.1:8000/api/notes-irregular', {
                                         user_id: userContext.user.id,
-                                        irregular_id: irregular[position]['id'],
+                                        irregular_id: irregular[position.current]['id'],
                                     });
                                 }}
                             >
@@ -266,8 +370,9 @@ function GameDetail() {
                                 >
                                     Practice
                                 </div>
-                                <div
+                                <button
                                     className={cx('item')}
+                                    id={cx('competition-btn')}
                                     onClick={(e) => {
                                         gameHome(false);
                                         gameCompetition(true);
@@ -279,7 +384,7 @@ function GameDetail() {
                                     }}
                                 >
                                     Competition
-                                </div>
+                                </button>
                                 <div
                                     className={cx('item')}
                                     onClick={(e) => {
@@ -328,6 +433,13 @@ function GameDetail() {
                                                 nextBtn.disabled = true;
                                                 nextBtn.style.pointerEvent = 'none';
                                             };
+                                            if (autoNext) {
+                                                setTimeout(() => {
+                                                    nextBtn.disabled = true;
+                                                    nextBtn.style.pointerEvent = 'none';
+                                                    handleNext('practice');
+                                                }, 500);
+                                            }
                                             e.target.disabled = true;
                                             e.target.pointerEvent = 'none';
                                         }}
@@ -381,6 +493,13 @@ function GameDetail() {
                                                 nextBtn.disabled = true;
                                                 nextBtn.style.pointerEvent = 'none';
                                             };
+                                            if (autoNext) {
+                                                setTimeout(() => {
+                                                    nextBtn.disabled = true;
+                                                    nextBtn.style.pointerEvent = 'none';
+                                                    handleNext('competition');
+                                                }, 500);
+                                            }
                                             e.target.disabled = true;
                                             e.target.pointerEvent = 'none';
                                         }}
@@ -428,6 +547,7 @@ function GameDetail() {
                                             onClick={(e) => {
                                                 document.querySelector(`.${cx('pause-overlay')}`).style.display =
                                                     'none';
+                                                setIsCounting(true);
                                             }}
                                         >
                                             Continue
@@ -449,6 +569,7 @@ function GameDetail() {
                                         className={cx('close-btn')}
                                         onClick={(e) => {
                                             document.querySelector(`.${cx('pause-overlay')}`).style.display = 'none';
+                                            setIsCounting(true);
                                         }}
                                     />
                                 </div>
@@ -463,6 +584,7 @@ function GameDetail() {
                                                 className: cx('toggle-icon'),
                                                 onClick: () => {
                                                     setSound(!sound);
+                                                    handleSound(!sound);
                                                 },
                                             })}
                                         </div>
@@ -472,17 +594,17 @@ function GameDetail() {
                                                 className: cx('toggle-icon'),
                                                 onClick: () => {
                                                     setTheme(!theme);
+                                                    changeTheme(theme ? 'light' : 'dark');
                                                 },
                                             })}
                                         </div>
                                         <div className={cx('setting-item')}>
                                             <span>Font-size</span>
-                                            {GetToggleComponent(fontSize)({
-                                                className: cx('toggle-icon'),
-                                                onClick: () => {
-                                                    setFontSize(!fontSize);
-                                                },
-                                            })}
+                                            <div className={cx('list-size')}>
+                                                <div className={cx('font-size')}>Small</div>
+                                                <div className={cx('font-size', 'inset')}>Medium</div>
+                                                <div className={cx('font-size')}>Large</div>
+                                            </div>
                                         </div>
                                         <div className={cx('setting-item')}>
                                             <span>Auto-next</span>
@@ -538,13 +660,8 @@ function GameDetail() {
                                                     'none';
                                                 handleNext('competition');
                                                 const nextBtn = document.getElementById(`${cx('competition-next')}`);
-                                                nextBtn.disabled = false;
-                                                nextBtn.style.pointerEvent = 'unset';
-                                                nextBtn.onclick = () => {
-                                                    handleNext('competition');
-                                                    nextBtn.disabled = true;
-                                                    nextBtn.style.pointerEvent = 'none';
-                                                };
+                                                nextBtn.disabled = true;
+                                                nextBtn.style.pointerEvent = 'none';
                                                 setCountDown(20);
                                                 setIsCounting(true);
                                                 setScore(0);

@@ -38,7 +38,15 @@ Route::get('/irregular-paginate', [IrregularsController::class, 'getIrregularsPa
 Route::get('/list-game', [GamesController::class, 'getListGame']);
 Route::get('/game-{id}', [GamesController::class, 'show']);
 Route::get('/history-{user_id}-{game_id}', [GamesController::class, 'getScoresByUser']);
-Route::get('/ranks-{game_id}', [GamesController::class, 'getSccoresOfAllUsers']);
+Route::get('/ranks-{game_id}', [GamesController::class, 'getScoresOfAllUsers']);
+Route::post('/scores', function(Request $request) {
+    $userId = $request->input('user_id');
+    $gameId = $request->input('game_id');
+    $score = $request->input('score');
+
+    DB::table('user_game')->insert(["user_id" => $userId, "game_id" => $gameId, "score" => $score]);
+});
+
 
 
 // UserController

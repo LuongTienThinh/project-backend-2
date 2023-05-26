@@ -108,7 +108,7 @@ class GamesController extends Controller
         return response()->json($data);
     }
 
-    public function getSccoresOfAllUsers($game_id)
+    public function getScoresOfAllUsers($game_id)
     {
         $data = DB::table('user_game')
         ->join('users', 'users.id', '=', 'user_game.user_id')
