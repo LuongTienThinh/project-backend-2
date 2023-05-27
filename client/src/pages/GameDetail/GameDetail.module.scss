@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 .game {
+    padding: 15px 0;
+    background-color: var(--background-game-area-color);
 }
 
 .game-area {
     position: relative;
-    margin: 15px 0;
     width: 100%;
     border: 1px solid black;
     border-radius: 10px;
     overflow: hidden;
-    font-size: 2rem;
+    font-size: var(--normal-game-size);
 }
 
 .game-area * {
@@ -18,7 +19,7 @@
 }
 
 .nav-game-wrapper {
-    background: var(--filter-color);
+    background: var(--background-game-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,8 +38,8 @@
     transition: var(--transition);
 
     &:hover {
-        background-color: var(--game-color);
-        color: azure;
+        background-color: var(--background-game-color-3);
+        color: var(--text-game-color);
     }
 }
 
@@ -46,7 +47,7 @@
     padding: 10px 15px;
     border-radius: 5px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-    font-size: 2rem;
+    font-size: var(--normal-game-size);
     pointer-events: none;
     text-align: center;
     text-transform: uppercase;
@@ -64,14 +65,14 @@
 }
 
 .title-game {
-    font-size: 4.5rem;
+    font-size: var(--title-game-size);
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: azure;
+    color: var(--text-game-color);
 }
 
 .setting {
-    font-size: 3rem;
+    font-size: var(--game-mode-size);
     cursor: pointer;
 }
 
@@ -80,7 +81,7 @@
     justify-content: center;
     align-items: center;
     height: 600px;
-    background-color: var(--text-color-2);
+    background-color: var(--background-game-color-2);
     position: relative;
 }
 
@@ -97,9 +98,9 @@
     height: 120px;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: var(--game-mode-size);
     border-radius: 10px;
-    background-color: var(--filter-color);
+    background-color: var(--background-game-color);
     color: var(--white-color);
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -108,8 +109,8 @@
     transition: var(--transition);
 
     &:hover {
-        background-color: var(--game-color);
-        color: azure;
+        background-color: var(--background-game-color-3);
+        color: var(--text-game-color);
     }
 
     &:not(:first-child) {
@@ -137,16 +138,20 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    background: var(--text-color-2);
+    background: var(--background-game-color-2);
     border-radius: 10px;
     overflow: hidden;
 }
 
+.setting-overlay .overlay {
+    width: 500px;
+}
+
 .overlay .title {
     padding: 5px 0 10px 0;
-    font-size: 4rem;
+    font-size: var(--toggle-game-size);
     text-align: center;
-    background-color: var(--filter-color);
+    background-color: var(--background-game-color);
     color: var(--white-color);
 }
 
@@ -190,12 +195,12 @@
     top: 5px;
     right: 5px;
     color: var(--white-color);
-    font-size: 3rem;
+    font-size: var(--game-mode-size);
     transition: 0.3s;
     cursor: pointer;
 
     &:hover {
-        font-size: 3.5rem;
+        font-size: var(--text-game-size);
     }
 }
 
@@ -212,11 +217,11 @@
     cursor: pointer;
     text-align: center;
     transition: var(--transition);
-    background-color: var(--filter-color);
-    color: azure;
+    background-color: var(--background-game-color);
+    color: var(--text-game-color);
 
     &:hover {
-        background-color: var(--game-color);
+        background-color: var(--background-game-color-3);
     }
 
     &:not(:first-child) {
@@ -227,11 +232,15 @@
 .setting-list .setting-item {
     display: flex;
     align-items: center;
-    font-size: 2.5rem;
+    font-size: var(--control-game-size);
     color: var(--primary-color);
 
-    & > * {
-        width: 50%;
+    & > :first-child {
+        width: 35%;
+    }
+
+    & > :last-child {
+        width: 65%;
     }
 
     &:not(:first-child) {
@@ -239,17 +248,44 @@
     }
 }
 
+.list-size {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.list-size .font-size {
+    padding: 4px 6px;
+    color: var(--white-color);
+    background-color: var(--background-game-color);
+    box-shadow: inset -2px 2px 5px 0px rgb(0, 0, 0);
+    border-radius: 4px;
+    transition: var(--transition);
+    cursor: pointer;
+
+    &:hover {
+        transform: rotate(2);
+    }
+}
+
+.list-size .font-size.inset {
+    background-color: var(--background-game-color);
+    box-shadow: -2px 2px 5px 0px rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
 .setting-item .toggle-icon {
-    font-size: 4rem;
+    font-size: var(--toggle-game-size);
     cursor: pointer;
     transition: var(--transition);
 }
 
 // Practice Mode
 
-.practice--mode,
-.competition--mode {
-    font-size: 3.5rem;
+.practice-mode,
+.competition-mode {
+    font-size: var(--text-game-size);
     display: none;
     padding: 50px;
 }
@@ -277,7 +313,7 @@
 .game-content .game-fill input {
     padding: 12px 0;
     border-radius: 10px;
-    font-size: 2.5rem;
+    font-size: var(--control-game-size);
     border: 7px solid transparent;
 }
 
@@ -289,18 +325,18 @@
 
 .btn-area .btn {
     padding: 15px 20px;
-    background-color: var(--filter-color);
+    background-color: var(--background-game-color);
     color: var(--white-color);
     cursor: pointer;
     border-radius: 10px;
     transition: var(--transition);
     min-width: 150px;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: var(--text-game-size);
 
     &:hover {
-        background-color: var(--game-color);
-        color: azure;
+        background-color: var(--background-game-color-3);
+        color: var(--text-game-color);
     }
 
     &:disabled {
@@ -316,7 +352,7 @@
 
 .time-remaining .time-cooldown {
     padding: 15px 20px;
-    background-color: var(--filter-color);
+    background-color: var(--background-game-color);
     color: var(--white-color);
     display: inline-block;
     min-width: 120px;

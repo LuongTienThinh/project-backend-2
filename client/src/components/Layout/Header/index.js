@@ -404,7 +404,7 @@ function Header() {
                                 <ListNotify
                                     listNotify={listGame.map((game) => {
                                         return {
-                                            id: game["id"],
+                                            id: game['id'],
                                             title: game['game_name'],
                                             image: game['game_image'],
                                             description:
