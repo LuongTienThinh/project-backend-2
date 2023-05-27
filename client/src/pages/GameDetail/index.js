@@ -50,7 +50,7 @@ function GameDetail() {
         });
     }, [id]);
 
-    useLayoutEffect(() => {
+    useEffect(() => {
         axios.get(`http://127.0.0.1:8000/api/history-${userContext.user.id}-${id}`).then((response) => {
             setListUserScores(response.data);
         });
@@ -70,7 +70,7 @@ function GameDetail() {
     }, []);
 
     useEffect(() => {
-        document.querySelector(`.${cx('competition-score')}`).value = score;
+        document.querySelector(`.${cx('competition--score')}`).value = score;
     }, [score]);
 
     const handleNext = (mode) => {
@@ -155,12 +155,14 @@ function GameDetail() {
     };
 
     const gamePractice = (flag) => {
+        console.log('game');
         if (!flag) {
-            document.querySelector(`.${cx('practice-mode')}`).style.display = 'none';
+            console.log(document.querySelector(`.${cx('practice--mode')}`));
+            document.querySelector(`.${cx('practice--mode')}`).style.display = 'none';
             document.getElementById(cx('pause-btn')).style.display = 'none';
             document.getElementById(cx('add-note-btn')).style.display = 'none';
         } else {
-            document.querySelector(`.${cx('practice-mode')}`).style.display = 'block';
+            document.querySelector(`.${cx('practice--mode')}`).style.display = 'block';
             document.getElementById(cx('pause-btn')).style.display = 'block';
             const addNoteBtn = document.getElementById(cx('add-note-btn'));
             console.log(userContext.user['id']);
@@ -174,13 +176,13 @@ function GameDetail() {
 
     const gameCompetition = (flag) => {
         if (!flag) {
-            document.querySelector(`.${cx('competition-mode')}`).style.display = 'none';
+            document.querySelector(`.${cx('competition--mode')}`).style.display = 'none';
             document.getElementById(cx('pause-btn')).style.display = 'none';
-            document.querySelector(`.${cx('competition-score')}`).style.display = 'none';
+            document.querySelector(`.${cx('competition--score')}`).style.display = 'none';
         } else {
-            document.querySelector(`.${cx('competition-mode')}`).style.display = 'block';
+            document.querySelector(`.${cx('competition--mode')}`).style.display = 'block';
             document.getElementById(cx('pause-btn')).style.display = 'block';
-            document.querySelector(`.${cx('competition-score')}`).style.display = 'block';
+            document.querySelector(`.${cx('competition--score')}`).style.display = 'block';
         }
     };
 
@@ -208,6 +210,7 @@ function GameDetail() {
     return (
         <>
             <Header />
+            {console.log('render')}
             <section className={cx('game')}>
                 <div className={cbase('container')}>
                     <div className={cx('game-area')}>
@@ -231,7 +234,7 @@ function GameDetail() {
                                 Pause
                             </div>
                             <div className={cx('title-game')}>{game['game_name']}</div>
-                            <input className={cx('competition-score')} placeholder="score" />
+                            <input className={cx('competition--score')} placeholder="score" />
                             <div
                                 className={cx('add-note')}
                                 id={cx('add-note-btn')}
@@ -292,7 +295,7 @@ function GameDetail() {
                             {/* End game home */}
 
                             {/* Practice mode */}
-                            <div className={cx('practice-mode')}>
+                            <div className={cx('practice--mode')}>
                                 <div className={cx('game-content')}>
                                     <div className={cx('game-column')}>
                                         <div>Base</div>
@@ -342,7 +345,7 @@ function GameDetail() {
                             {/* End practice mode */}
 
                             {/* Competition mode */}
-                            <div className={cx('competition-mode')}>
+                            <div className={cx('competition--mode')}>
                                 <div className={cx('game-content')}>
                                     <div className={cx('time-remaining')}>
                                         Time: <div className={cx('time-cooldown')}>{countDown}s</div>

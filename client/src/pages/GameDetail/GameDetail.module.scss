@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-.game {}
+.game {
+}
 
 .game-area {
     position: relative;
@@ -190,7 +191,7 @@
     right: 5px;
     color: var(--white-color);
     font-size: 3rem;
-    transition: .3s;
+    transition: 0.3s;
     cursor: pointer;
 
     &:hover {
@@ -223,14 +224,13 @@
     }
 }
 
-
 .setting-list .setting-item {
     display: flex;
     align-items: center;
     font-size: 2.5rem;
     color: var(--primary-color);
 
-    &>* {
+    & > * {
         width: 50%;
     }
 
@@ -247,14 +247,14 @@
 
 // Practice Mode
 
-.practice-mode,
-.competition-mode {
+.practice--mode,
+.competition--mode {
     font-size: 3.5rem;
     display: none;
     padding: 50px;
 }
 
-.practice-mode .game-content {
+.practice--mode .game-content {
     padding: 50px 0;
 }
 
@@ -264,7 +264,7 @@
     justify-content: space-between;
     align-items: center;
 
-    &>* {
+    & > * {
         width: 30%;
         text-align: center;
     }
@@ -298,16 +298,13 @@
     text-align: center;
     font-size: 3.5rem;
 
-
-
-
     &:hover {
         background-color: var(--game-color);
         color: azure;
     }
 
     &:disabled {
-        opacity: .5;
+        opacity: 0.5;
         pointer-events: none;
     }
 }

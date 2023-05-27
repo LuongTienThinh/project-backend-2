@@ -91,7 +91,7 @@ class IrregularsController extends Controller
     }
 
     public function getIrregularsPaginate() {
-        $data = Irregulars::paginate(25);
+        $data = Irregulars::paginate(20);
         return response()->json($data);
     }
 }
