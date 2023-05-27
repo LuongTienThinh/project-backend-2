@@ -39,13 +39,7 @@ Route::get('/list-game', [GamesController::class, 'getListGame']);
 Route::get('/game-{id}', [GamesController::class, 'show']);
 Route::get('/history-{user_id}-{game_id}', [GamesController::class, 'getScoresByUser']);
 Route::get('/ranks-{game_id}', [GamesController::class, 'getScoresOfAllUsers']);
-Route::post('/scores', function(Request $request) {
-    $userId = $request->input('user_id');
-    $gameId = $request->input('game_id');
-    $score = $request->input('score');
-
-    DB::table('user_game')->insert(["user_id" => $userId, "game_id" => $gameId, "score" => $score]);
-});
+Route::post('/scores', [GamesController::class, 'addScoreByUser']);
 
 
 
@@ -55,36 +49,19 @@ Route::get('/user-{user_id}', [UserController::class, 'show']);
 
 Route::get('/list-users', [UserController::class, 'index']);
 
-Route::post('/create-user', function(Request $request) {
-    $name = $request->input('user_name');
-    $email = $request->input('email');
-    $password = $request->input('password');
-
-    $hashedPassword = Hash::make($password);
-    User::create(["email" => $email, "user_name" => $name, "password" => $hashedPassword]);
-});
+Route::post('/create-user', [UserController::class, 'store']);
 
 
 // VocabularyController
 
 Route::get('/word-english', [VocabularyController::class, 'wordEnglish']);
 
-Route::post('/notes-word', function(Request $request) {
-    $user = $request->input('user_id');
-    $word = $request->input('word_id');
-    
-    DB::table('note_word')->insert(["user_id" => $user, "word_id" => $word, "irregular_id" => 0]);
-});
+Route::post('/notes-word', [VocabularyController::class, 'addNoteByUser']);
 
 Route::get('/notes-vocabulary-{user_id}', [VocabularyController::class, 'getVocabularyByUser']);
 Route::get('/notes-irregular-{user_id}', [VocabularyController::class, 'getIrregularByUser']);
 
-Route::post('/notes-irregular', function(Request $request) {
-    $user = $request->input('user_id');
-    $irregular = $request->input('irregular_id');
-    
-    DB::table('note_word')->insert(["user_id" => $user, "word_id" => 0, "irregular_id" => $irregular]);
-});
+Route::post('/notes-irregular', [VocabularyController::class, 'addIrregularByUser']);
 
 
 // TopicController

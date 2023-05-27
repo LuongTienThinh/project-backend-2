@@ -7,6 +7,7 @@ use App\Models\Games;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 
+
 class GamesController extends Controller
 {
     /**
@@ -89,34 +90,25 @@ class GamesController extends Controller
 
     public function getListGame()
     {
-        $data = DB::table('games')
-        ->select('games.*', 'topic.topic_name', 'action.action_name')
-        ->join('topic', 'topic.id', '=', 'games.topic')
-        ->join('action', 'action.id', '=', 'games.action')
-        ->get();
-        return response()->json($data);
+        $game = new Games();
+        return $game->getListGame();
     }
 
     public function getScoresByUser($user_id, $game_id)
     {
-        $data = DB::table('user_game')
-        ->join('users', 'users.id', '=', 'user_game.user_id')
-        ->join('games', 'games.id', '=', 'user_game.game_id')
-        ->where('users.id', $user_id)
-        ->where('games.id', $game_id)
-        ->get();
-        return response()->json($data);
+        $game = new Games();
+        return $game->getScoresByUser($user_id, $game_id);
     }
 
     public function getScoresOfAllUsers($game_id)
     {
-        $data = DB::table('user_game')
-        ->join('users', 'users.id', '=', 'user_game.user_id')
-        ->join('games', 'games.id', '=', 'user_game.game_id')
-        ->where('games.id', $game_id)
-        ->orderByDesc('score')
-        ->take(10)
-        ->get();
-        return response()->json($data);
+        $game = new Games();
+        return $game->getScoresOfAllUsers($game_id);
+    }
+
+    public function addScoreByUser(Request $request)
+    {
+        $game = new Games();
+        $game->addScoreByUser($request);
     }
 }

@@ -86,12 +86,12 @@ class IrregularsController extends Controller
 
     public function getIrregulars()
     {
-        $data = Irregulars::all();
-        return response()->json($data);
+      $irre = new Irregulars();
+      return  $irre->getIrregulars();
     }
 
     public function getIrregularsPaginate() {
-        $data = Irregulars::paginate(20);
-        return response()->json($data);
+        $irre = new Irregulars();
+        return  $irre->getIrregularsPaginate();
     }
 }

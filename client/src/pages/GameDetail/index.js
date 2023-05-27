@@ -141,6 +141,7 @@ function GameDetail() {
             root.style.setProperty('--game-mode-size', `${gameMedium - 0.2}rem`);
             root.style.setProperty('--control-game-size', `${controlMedium - 0.2}rem`);
             root.style.setProperty('--normal-game-size', `${normalMedium - 0.2}rem`);
+            document.querySelector(`.${cx('setting-overlay')} .${cx('overlay')}`).style.width = '500px';
         } else if (fontSize == 'medium') {
             root.style.setProperty('--title-game-size', `${titleMedium}rem`);
             root.style.setProperty('--toggle-game-size', `${toggleMedium}rem`);
@@ -148,6 +149,7 @@ function GameDetail() {
             root.style.setProperty('--game-mode-size', `${gameMedium}rem`);
             root.style.setProperty('--control-game-size', `${controlMedium}rem`);
             root.style.setProperty('--normal-game-size', `${normalMedium}rem`);
+            document.querySelector(`.${cx('setting-overlay')} .${cx('overlay')}`).style.width = '500px';
         } else {
             root.style.setProperty('--title-game-size', `${titleMedium + 0.2}rem`);
             root.style.setProperty('--toggle-game-size', `${toggleMedium + 0.2}rem`);
@@ -155,6 +157,7 @@ function GameDetail() {
             root.style.setProperty('--game-mode-size', `${gameMedium + 0.2}rem`);
             root.style.setProperty('--control-game-size', `${controlMedium + 0.2}rem`);
             root.style.setProperty('--normal-game-size', `${normalMedium + 0.2}rem`);
+            document.querySelector(`.${cx('setting-overlay')} .${cx('overlay')}`).style.width = '550px';
         }
     }, [fontSize]);
 
@@ -322,7 +325,7 @@ function GameDetail() {
                                 className={cx('history-game')}
                                 id={cx('history-btn')}
                                 onClick={(e) => {
-                                    document.querySelector(`.${cx('history-overlay')}`).style.display = 'block';
+                                    document.querySelector(`.${cx('history--overlay')}`).style.display = 'block';
                                 }}
                             >
                                 History
@@ -516,7 +519,7 @@ function GameDetail() {
                             </div>
                             {/* End competition mode */}
 
-                            <div className={cx('history-overlay')}>
+                            <div className={cx('history--overlay')}>
                                 <div className={cx('overlay')}>
                                     <div className={cx('title')}>History</div>
                                     <div className={cx('thead')}>
@@ -524,7 +527,7 @@ function GameDetail() {
                                         <div className={cx('name')}>Name</div>
                                         <div className={cx('score')}>Score</div>
                                     </div>
-                                    {listUserScores.map((e, i) => {
+                                    {[...listUserScores].reverse().map((e, i) => {
                                         return (
                                             <div key={i} className={cx('score-item')}>
                                                 <div className={cx('number-ordered')}>{i + 1}.</div>
@@ -536,7 +539,7 @@ function GameDetail() {
                                     <IoIosCloseCircleOutline
                                         className={cx('close-btn')}
                                         onClick={(e) => {
-                                            document.querySelector(`.${cx('history-overlay')}`).style.display = 'none';
+                                            document.querySelector(`.${cx('history--overlay')}`).style.display = 'none';
                                         }}
                                     />
                                 </div>
