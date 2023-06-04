@@ -173,6 +173,9 @@ function GameDetail() {
         const submitBtn = document.getElementById(`${cx(`${mode}-submit`)}`);
         submitBtn.disabled = false;
         submitBtn.pointerEvent = 'unset';
+        const nextBtn = document.getElementById(`${cx(`${mode}-next`)}`);
+        nextBtn.disabled = true;
+        nextBtn.pointerEvent = 'none';
         handleRandom(mode);
     };
 
@@ -253,9 +256,7 @@ function GameDetail() {
     };
 
     const gamePractice = (flag) => {
-        console.log('game');
         if (!flag) {
-            console.log(document.querySelector(`.${cx('practice--mode')}`));
             document.querySelector(`.${cx('practice--mode')}`).style.display = 'none';
             document.getElementById(cx('pause-btn')).style.display = 'none';
             document.getElementById(cx('add-note-btn')).style.display = 'none';
@@ -316,7 +317,6 @@ function GameDetail() {
                 <source src={audioFile} type="audio/mpeg" />
             </audio>
             <Header />
-            {console.log('render')}
             <section className={cx('game')}>
                 <div className={cbase('container')}>
                     <div className={cx('game-area')}>
@@ -359,6 +359,7 @@ function GameDetail() {
                                 className={cx('setting')}
                                 onClick={(e) => {
                                     document.querySelector(`.${cx('setting-overlay')}`).style.display = 'block';
+                                    setIsCounting(false);
                                 }}
                                 title="Setting"
                             />
@@ -626,6 +627,7 @@ function GameDetail() {
                                         className={cx('close-btn')}
                                         onClick={(e) => {
                                             document.querySelector(`.${cx('setting-overlay')}`).style.display = 'none';
+                                            setIsCounting(true);
                                         }}
                                     />
                                 </div>
